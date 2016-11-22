@@ -1,0 +1,536 @@
+/* Extra small devices (phones, less than 768px) */
+
+/* DASHBOARD */
+
+#wrap .row:first-of-type {
+    text-align: center;
+}
+
+#wrap .row:first-of-type > .field {
+    display: block;
+}
+
+#view_stats { margin-top: 5px; }
+
+#sortable > .overview {
+    margin: 6% 5%;
+}
+
+/* GOOGLE ANALYTICS */
+.common_back {
+/*    width: 100%;*/
+}
+
+.handleDivFull {
+    width: 97%;
+    float: none;
+}
+
+.viewClass .params {
+/*    width: 122px!important;*/
+    padding: 0px 8px; 
+    float:left;
+}
+
+/* SETTINGS */
+#overview3 {
+    width: 104%;
+}
+
+#accordion {
+/*    width: 601px;*/
+    width: 105%;
+}
+
+.ui-accordion .ui-accordion-content {
+    position: relative;
+}
+
+button#deactivate {
+    position: absolute;
+    top : 0%;
+    right: 3%;
+	padding: 0;
+}
+
+#activate_button,
+#deactivate_button ,
+#upgrade_button {
+	height: inherit;
+}
+
+.myAccord {
+    margin-top: 28px!important;
+}
+
+#analytics_fetch {
+    padding: 5px 24px;
+}
+
+
+
+.handleDivEntire {
+    width: 95%;
+}
+
+.viewClassFull div {
+    width: 48%;
+    text-align: center;
+}
+
+.ui-widget-content {
+    border: 0!important;
+}
+
+.ui-resizable-se { display: none!important; }
+
+.widefat th {
+    padding: 8px 9px;
+}
+
+.inLine-space {
+	display: none;
+}
+
+.pcontainer {
+	padding: 0;
+}
+
+.wp-list-table.widefat.resulttbl {
+	margin-bottom: 16px;
+	box-shadow: none;
+}
+
+.wp-list-table.widefat.resulttbl tr:first-child {
+	background-color : #666666;
+	
+}
+
+.wp-list-table.widefat.resulttbl tr:first-child > th {
+	color: #fff;
+}
+
+.wp-list-table.widefat.resulttbl tr:not(:first-child):not(:last-child) > td{
+	border-bottom : 1px solid #E5E5E5;
+}
+
+.greater {
+	background: url("../img/indicator.png") no-repeat scroll 0px 25px rgba(0, 0, 0, 0);
+	padding: 17px;
+}
+
+.lesser {
+	background: url("../img/indicator.png") no-repeat scroll -27px 25px rgba(0, 0, 0, 0);
+	padding: 17px;
+}
+
+.inLine p span.graph-axes { padding: 0 5px !important; }
+
+.facebook_posts  tr:not(:first-child) td:first-child, .facebook_posts  tr:not(:first-child) td:nth-child(2) {
+	color : #70a73f;
+}
+
+.myAccord .label {
+	width: inherit;
+}
+
+#sortable > .overview > .left > img {
+	cursor: pointer;
+}
+
+table.widefat {
+	border: 1px solid #e5e5e5;
+}
+
+@media (max-width:480px) {
+
+.wp-list-table.widefat.resulttbl tr:not(:first-child) > td:last-child {
+		border: none;
+	}
+}
+
+@media (max-width:767px) {
+
+	#fb_page_fetch {
+	   padding: 9px 24px;
+	}
+
+	#sortable > .overview {
+        margin: 0;
+		margin-bottom: 10px;
+    }
+	
+	.overview {
+		width: 100%;
+	}
+	
+	.viewClassFull {
+		text-align: center;
+		width: 96%;
+	}
+	
+	.viewClassFull div.fifty {
+		width: 93%;
+		padding-top: 10px;
+	}
+	
+	.bdright {
+		border-right: none!important;
+	}
+	
+	#overview1 .fifty:nth-of-type(3) , 
+	#overview2 .viewClassFull .fifty:nth-of-type(3) {
+		border-bottom: 1px solid #eee;
+	}
+	
+	.skystats_page_wp-skystats-ga-stats .viewClass .params {
+		display: inline-block!important;
+		/* margin-left: 28% !important; */
+	}
+	
+	#overview2 .viewClassFull div.fifty {
+		width: 94%;
+	}
+	
+	h4.customSize {
+		width: 100%;
+	}
+	
+	
+	.ui-accordion .ui-accordion-icons {
+		padding: 0.7em 0.5em 0.5em 2.2em;
+	}
+	
+	#accordion input[type="text"] {
+		width: 100% !important;
+	}
+	
+	/* table.widefat { border: 0; } */
+	
+	.ui-accordion-content.ui-accordion-content-active:last-of-type > form { margin-top: 2em; }
+	
+	.wp-list-table.widefat.resulttbl tr:not(:first-child):not(:last-child) > td:not(:last-child) {
+		border-bottom: 1px solid #E5E5E5;
+	}
+	
+	
+	
+}
+
+/* @media (min-width: 361px) and (max-width:440px) {
+	.skystats_page_wp-skystats-ga-stats .viewClass .params {
+		display: inline-block!important;
+		margin-left: 28% !important;
+	}
+} */
+
+/* 480px and below 639px  */
+/* @media (min-width: 481px) and (max-width:640px) {
+    #sortable > .overview {
+        margin: 6% 16%;
+    }
+	
+	
+} */
+
+/* 768px and below 991px  */
+@media (min-width: 768px) and (max-width:991px) {
+    #fb_page_fetch {
+        padding: 0 24px!important;
+    }
+    
+    .widefat th {
+    padding: 8px 10px;
+    }
+	
+	 #sortable > .overview {
+        margin: 6% 23%;
+    }
+    
+    /* SETTINGS */
+    #accordion {
+        width: 100%;
+    }
+    
+    #accordion input[type="text"] {
+        width: 321px;
+        padding: 7px 5px;
+    }
+    
+    .handleDivEntire {
+        width: 97%;
+    }
+    
+    .widefat th {
+    padding: 8px 10px;
+    }
+	
+	#fb_page_fetch,
+    #analytics_fetch {
+       padding: 0 24px;
+    }
+    
+    #sortable > .overview {
+        margin: 6% 23%;
+    }
+    
+    /* SETTINGS */
+    #accordion {
+        width: 100%;
+    }
+    
+    #accordion input[type="text"] {
+        width: 321px;
+        padding: 7px 5px;
+    }
+    
+    .handleDivEntire {
+        width: 97%;
+    }
+    
+    .widefat th {
+    padding: 8px 10px;
+    }
+}
+
+/* @media (min-width: 783px) and (max-width:991px) {
+    
+    #fb_page_fetch,
+    #analytics_fetch {
+       padding: 0 24px;
+    }
+    
+    #sortable > .overview {
+        margin: 6% 23%;
+    }
+    
+    /* SETTINGS */
+    /*#accordion {
+        width: 100%;
+    }
+    
+    #accordion input[type="text"] {
+        width: 321px;
+        padding: 7px 5px;
+    }
+    
+    .handleDivEntire {
+        width: 97%;
+    }
+    
+    .widefat th {
+    padding: 8px 10px;
+    }
+
+} */
+
+/* 992px and below 1365px  */
+@media (min-width: 992px) and (max-width:1199px) {
+    
+    #wrap .row:first-of-type {
+        text-align: center;
+    }
+    
+    #wrap .row:first-of-type > .field {
+        display: block;
+       
+    }
+    
+    #view_stats { margin-top: 5px; }
+    
+    .ui-sortable {
+        width: 100%;
+    }
+    
+    #sortable > .overview {
+        margin: 6% 30%;
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+    
+/*
+    .viewClass:first-of-type {
+        margin-right: 0;
+    }
+*/
+    .viewClass {
+        width: 100%!important;
+    }
+    
+    .viewClass .params {
+        padding: 0;
+        text-align: center;
+    }
+    
+    #fb_page_fetch,
+    #analytics_fetch {
+       padding: 0 24px;
+    }
+    
+    .handleDivEntire {
+        width: 97%;
+    }
+    
+    
+    
+    /* SETTINGS */
+    #accordion {
+        width: 100%;
+    }
+    
+    #accordion input[type="text"] {
+        width: 321px;
+        padding: 7px 5px;
+    }
+    
+    .widefat th {
+    padding: 8px 10px;
+    }
+	
+	.inLine-space {
+		display: inline-block;
+		width: 7px;
+	}
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+    .viewClass {
+        margin-right: 0;
+        width: 100%!important;
+    }
+    
+    .viewClass:nth-of-type(2) {
+        margin-left: 0;
+    }
+    
+    .viewClass .params {
+        padding: 0;
+        width: 155px!important;
+        text-align: center;
+    }
+    
+     body:not(.toplevel_page_wp-skystats) > .common_back {
+        width: 80%!important;
+    }
+    
+    .widefat th {
+    padding: 8px 10px;
+    }
+	
+	.inLine-space {
+		display: inline-block;
+		width: 7px;
+	}
+}
+
+@media (min-width: 1200px) {
+    
+    body.skystats_page_wp-skystats-ga-stats .common_back {
+        width: 82%!important;
+    }
+    
+    /* DASHBOARD */
+   
+    #wrap .row:first-of-type {
+        text-align: inherit;
+    }
+    
+    #wrap .row:first-of-type > span.field {
+        display: inline;
+    }
+    
+    #view_stats { margin-top: 0; }
+    
+    #sortable > .overview {
+        margin: 0;
+        /* margin-right: 8px; */
+        margin-right: 15px;
+        margin-bottom: 15px;
+		
+    }
+	
+	#sortable > .overview > .left > img {
+		cursor: pointer;
+	}
+    
+    /* GOOGLE ANALYTICS */
+    
+    .handleDivFull {
+        width: 46%;
+        float: left;
+    }
+    
+    .handleDivEntire {
+        width: 97%;
+    }
+    
+    .viewClass .params {
+        padding: 0;
+        /* width: 155px!important;
+        text-align: center; */
+		text-align: left;
+		width: 222px !important;
+    }
+    
+    /* SETTINGS */
+    #accordion {
+/*        width: 1177px;*/
+        width: 100%;
+    }
+    
+    #accordion input[type="text"] {
+        width: 321px;
+        padding: 7px 5px;
+    }
+    
+    .myAccord {
+        margin-top: 9px!important;
+    }
+    
+    .ui-accordion .ui-accordion-content {
+        position: initial;
+    }
+    
+    button#deactivate {
+        position: initial;
+    }
+    
+    #analytics_fetch {
+        padding: 0 24px;
+    }
+    
+    #fb_page_fetch {
+       padding: 0 24px;
+    }
+    
+    .dateRan > .field:first-of-type {
+        margin-right: 13px;
+    }
+    
+    .field {
+        margin: 0px 13px 0px 12px;
+    }
+    
+    .handleDivEntire {
+        width: 80%;
+    }
+    
+    .viewClassFull div {
+        width: 176px;
+    }
+    
+    .widefat th {
+    padding: 8px 10px;
+    }
+	
+	.inLine-space {
+		display: inline-block;
+		width: 7px;
+	}
+}
+
+

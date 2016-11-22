@@ -1,0 +1,29 @@
+.label {
+    display: inline-block;
+    width: 161px;
+    font-weight:bold;
+    
+}
+.row:first-child{
+    margin-top:40px
+}
+.row{
+    padding:9px 0;
+}
+ /* PIXEL PERFECT CHNAGES*/
+ 
+ 
+ .wrap {
+margin: 10px 20px 0 -4px !important;
+}
+.wrap h2 {
+padding: 1px 15px 4px 0;
+}
+.row {
+margin: -5px 0 21px 1px;
+}
+ 
+ #analytics_fetch, #fb_page_fetch {
+  margin-top: 2px;
+  padding: 2px 24px 24px;
+}

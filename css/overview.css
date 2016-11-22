@@ -1,0 +1,11 @@
+.res_table {width:400px} 
+.gray{color:gray} 
+.red{color:red} 
+.green {color:green} 
+.red , .green ,  .red {font-weight:bold}
+#result{padding:10px}
+  #ui-datepicker-div{display:none}
+  #analytics_fetch, #fb_page_fetch {
+  margin-top: 2px;
+  padding: 2px 24px 24px;
+}
